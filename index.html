@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xls-export sample page</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="background: lightblue; ">
+  <header>
+    <h4 class="head">Delight<span class="cargo">Express Cargo</span></h4>
+  </header>
+
+  <div class="btn-box">
+    <input class="btn" type="button" id="xls-button" value="Click here to download a XLS sample" />
+    <input class="btn" type="button" id="csv-button" value="Click here to download a CSV sample" />
+  </div>
+  <script src="//unpkg.com/string-similarity/umd/string-similarity.min.js"></script>
+  <script src="./example-dataset.js"></script>
+  <script src="./xls-export.js"></script>
+  <script src="./typeddata.js" defer></script>
+</body>
+</html>
